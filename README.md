@@ -1,0 +1,3 @@
+- We use snscrape to get Tweets and Comments from August 1 - October 6. This data does not contain Retweets. This is done in **DataGatering.ipynb**.
+- Given the JSON's, two separate datraframes were created one for Fetterman, Oz. These datasets are filtered with tweets containing only English, removing duplicate tweets, removing tweets than contain keywords oz and fetterman etc. This is implemented in **DataPreprocess.ipynb**.
+- 
