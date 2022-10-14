@@ -9,6 +9,6 @@ Use Twitter data about the Pennsylvania Senate race between Dr. Mehmet Oz and Jo
 
 - Given the JSON's, two separate datraframes were created one for Fetterman, Oz. These datasets are filtered with tweets containing only English, removing duplicate tweets, removing tweets than contain keywords oz and fetterman etc. This is implemented in **DataPreprocess.ipynb**.
 
-- In **DataClassificationOz.ipynb** and **DataClassificationFetterman.ipynb**, sentiments are computed for every tweets in their respective dataframes computed in **DataPreprocess.ipynb**. The sentiment indicators are computed using *VADER SentimentAnalyzer*, *TextBlob*, and *BERTTweetSentimentAnalysis*. 
+- In **DataClassificationOz.ipynb** and **DataClassificationFetterman.ipynb**, sentiments are computed for every tweets in their respective dataframes computed in **DataPreprocess.ipynb**. The sentiment indicators are computed using *VADER SentimentAnalyzer*, *TextBlob*, and *BERTweet SentimentAnalysis*. 
 
-- In **DataInterpretation.ipynb**, after training and predicting the sentiments based on the *VADER SentimentAnalyzer* and *BERTTweetSentimentAnalysis*,plots are geenerated for observing changes in twitter user sentiment data over time for the whole dataset,  for tweets with (!) marks, for users with relatively high number of followers etc. 
+- In **DataInterpretation.ipynb**, after training and predicting the sentiments based on the *VADER SentimentAnalyzer* and *BERTweet SentimentAnalysis*,plots are geenerated for observing changes in twitter user sentiment data over time for the whole dataset,  for tweets with (!) marks, for users with relatively high number of followers etc. 
